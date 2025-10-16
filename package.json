@@ -1,8 +1,8 @@
 {
-  "name": "birthday-countdown",
+  "name": "rocket-crystal-party",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hbgnostic.github.io/birthday-countdown",
+  "homepage": "https://hbgnostic.github.io/rocket-crystal-party",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
