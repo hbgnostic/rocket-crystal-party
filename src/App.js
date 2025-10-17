@@ -62,10 +62,10 @@ const coloredName = 'Rocket'.split('').map((letter, index) => (
           <span className="text-black">'s</span>
         </h1>
         <h2 className="mb-3 text-center text-2xl font-bold sm:text-3xl">
-          6th Birthday Geode Cracking Party!
+          6th Birthday Party!
         </h2>
         <p className="mb-6 text-center text-lg text-gray-700">
-          🎂 Rocket is turning 6! 🧦 Crack open geodes in socks with hammers to reveal hidden crystals! 💎
+          🎂 Rocket is turning 6! 🧦 Smash open the rock to find hidden crystals! 💎
         </p>
         <div className="mb-6 text-center text-base sm:text-lg lg:text-xl">
           {!isBirthday ? (
@@ -84,7 +84,7 @@ const coloredName = 'Rocket'.split('').map((letter, index) => (
               </span>
             </div>
           ) : (
-<span>Happy 6th Birthday! Let's Crack Open Some Geodes! 🔨💎🎉</span>
+<span>Happy 6th Birthday! Let's Smash Open Some Rocks! 🔨💎🎉</span>
           )}
         </div>
         <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6">
@@ -102,7 +102,7 @@ const coloredName = 'Rocket'.split('').map((letter, index) => (
         </div>
         <div className="flex flex-wrap justify-center gap-2 mb-4">
           <div className="bg-purple-100 px-4 py-2 rounded-full text-purple-800 font-semibold">
-            🧦 Socks with Geodes
+            🧦 Socks with Rocks
           </div>
           <div className="bg-blue-100 px-4 py-2 rounded-full text-blue-800 font-semibold">
             🔨 Hammers Ready
@@ -149,7 +149,7 @@ const blogContent = {
   author: "Rocket's Party",
   date: '25th October, 2024',
   title: "Rocket's Crystal Smashing Party",
-  description: "Counting down to Rocket's geode cracking adventure!",
+  description: "Counting down to Rocket's rock smashing adventure!",
   image: `${process.env.PUBLIC_URL}/partyvid.mp4`,
   authorAvatar: `${process.env.PUBLIC_URL}/partyvid.mp4`,
 }
