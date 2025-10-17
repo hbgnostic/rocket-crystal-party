@@ -8,7 +8,7 @@ const BirthdayCountdown = () => {
   const [secondsLeft, setSecondsLeft] = useState(() => {
     const now = new Date()
     const currentYear = now.getFullYear()
-    let birthdayDate = new Date(currentYear, 9, 25, 6, 0, 0) // October 25th at 6:00 AM
+    let birthdayDate = new Date(currentYear, 9, 25, 11, 0, 0) // October 25th at 11:00 AM
 
     if (now > birthdayDate) {
       birthdayDate.setFullYear(currentYear + 1)
