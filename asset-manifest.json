@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rocket-crystal-party/static/css/main.623664a3.css",
-    "main.js": "/rocket-crystal-party/static/js/main.e5f181af.js",
+    "main.js": "/rocket-crystal-party/static/js/main.66cc3ed9.js",
     "static/js/453.0827985d.chunk.js": "/rocket-crystal-party/static/js/453.0827985d.chunk.js",
     "index.html": "/rocket-crystal-party/index.html",
     "main.623664a3.css.map": "/rocket-crystal-party/static/css/main.623664a3.css.map",
-    "main.e5f181af.js.map": "/rocket-crystal-party/static/js/main.e5f181af.js.map",
+    "main.66cc3ed9.js.map": "/rocket-crystal-party/static/js/main.66cc3ed9.js.map",
     "453.0827985d.chunk.js.map": "/rocket-crystal-party/static/js/453.0827985d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.623664a3.css",
-    "static/js/main.e5f181af.js"
+    "static/js/main.66cc3ed9.js"
   ]
 }
