@@ -112,10 +112,14 @@ const coloredName = 'Rocket'.split('').map((letter, index) => (
           </div>
         </div>
         <div className="mt-8 max-w-full">
-        <img
-            src={`${process.env.PUBLIC_URL}/Day1Pic.jpg`}
-            alt="Birthday celebration"
+          <video
+            src={`${process.env.PUBLIC_URL}/partyvid.mp4`}
+            autoPlay
+            loop
+            muted
+            playsInline
             className="mx-auto w-[300px] rounded-lg border-none"
+            alt="Crystal smashing party video"
           />
         </div>
       </div>
@@ -146,8 +150,8 @@ const blogContent = {
   date: '25th October, 2024',
   title: "Rocket's Crystal Smashing Party",
   description: "Counting down to Rocket's crystal smashing adventure!",
-  image: `${process.env.PUBLIC_URL}/Day1Pic.jpg`,
-  authorAvatar: `${process.env.PUBLIC_URL}/Day1Pic.jpg`,
+  image: `${process.env.PUBLIC_URL}/partyvid.mp4`,
+  authorAvatar: `${process.env.PUBLIC_URL}/partyvid.mp4`,
 }
 
 const TitleComponent = ({ title, avatar }) => (
